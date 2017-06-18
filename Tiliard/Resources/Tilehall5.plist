@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>TH05T01</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Colors</string>
+		<key>Moves</key>
+		<integer>4</integer>
+		<key>Shots</key>
+		<integer>1</integer>
+		<key>Hints</key>
+		<array>
+			<string>{240.0,208.0}|1</string>
+		</array>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+-310,0,0,0,0,0,-221,0,0,0,0,0,0,-411,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,2,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,-520,0,0,0,0,0,0,0,0,0,0,0,-113,0
+-1,0,0,0,0,0,-212,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH05T02</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Single Tracks</string>
+		<key>Moves</key>
+		<integer>23</integer>
+		<key>Shots</key>
+		<integer>3</integer>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,-116,0,-1,0,-112,0,0,0,0,-1
+0,0,0,0,0,0,0,-514,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,-410,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,9,0,0,0,4,0,0,0,0,0
+0,0,0,0,0,0,0,5,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH05T03</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Traffic Lights</string>
+		<key>Moves</key>
+		<integer>25</integer>
+		<key>Shots</key>
+		<integer>4</integer>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,3,0,0,0,0,0,-320,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,-520,0,5,0,0,0,0,0
+0,0,0,0,0,0,0,-620,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,6,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH05T04</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Ridiculous</string>
+		<key>Moves</key>
+		<integer>33</integer>
+		<key>Shots</key>
+		<integer>3</integer>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,-517,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,-517,-517,0,0,-512,-512,-512,-513,0,0,0,0
+0,0,0,0,-516,-516,-511,-512,-512,-512,-20,-512,0,0,0
+0,0,0,-515,-515,0,0,-517,-512,-512,-511,0,0,0,0
+0,0,0,-515,0,0,8,5,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH05T05</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Home, Sweet Home</string>
+		<key>Moves</key>
+		<integer>26</integer>
+		<key>ScoreSetter</key>
+		<string>EfePrat</string>
+		<key>Shots</key>
+		<integer>3</integer>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,-311,-310,-317,0,0,0,5,0,0
+0,0,0,0,0,-311,-310,-310,-310,-317,0,0,0,0,0
+0,0,0,0,-311,-310,-310,-310,-310,-310,-317,0,0,11,0
+0,0,0,0,0,-714,-714,-714,-714,-714,0,0,7,0,0
+0,0,0,0,0,-714,-220,-714,-521,-714,0,0,0,0,0
+0,0,0,0,0,-714,-714,-714,-521,-714,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH05T06</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Addition and Subtraction</string>
+		<key>Moves</key>
+		<integer>5</integer>
+		<key>Shots</key>
+		<integer>1</integer>
+		<key>Hints</key>
+		<array>
+			<string>{240.0,208.0}|1</string>
+		</array>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,-431,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,-433,0,0,4,0,0,-431,0,0,0,0
+0,0,0,0,0,0,0,-441,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH05T07</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Inversion</string>
+		<key>Moves</key>
+		<integer>18</integer>
+		<key>ScoreSetter</key>
+		<string>EfePrat</string>
+		<key>Shots</key>
+		<integer>2</integer>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,-441,0,12,0,0,0,0,0,0,14,0,0
+0,0,0,-642,0,0,0,0,0,0,0,0,0,0,0
+0,-441,-642,-443,-642,-441,0,0,0,-431,-632,-433,-634,-435,0
+0,0,0,-642,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,-441,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH05T08</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Wot Goes Fast</string>
+		<key>Moves</key>
+		<integer>25</integer>
+		<key>ScoreSetter</key>
+		<string>EfePrat</string>
+		<key>Shots</key>
+		<integer>7</integer>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,3,-312,-312,-341,-312,-312,0,0,0,0,0
+0,0,0,2,-341,-220,-220,-342,-220,-220,-341,0,0,0,0
+0,0,11,-341,-220,-220,-220,-341,-220,-220,-220,-341,0,0,0
+0,8,-312,-312,-312,-312,-312,-341,-312,-312,-312,-312,-312,0,0
+0,0,-312,-11,-13,-312,-312,-331,-312,-312,-11,-13,-312,0,0
+0,0,0,-17,-15,0,0,0,0,0,-17,-15,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH05T09</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Pyramids</string>
+		<key>Moves</key>
+		<integer>82</integer>
+		<key>Shots</key>
+		<integer>5</integer>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,-332,0,0,0,0,0,0,0
+0,0,0,0,-532,0,0,0,0,0,-732,0,0,0,0
+0,0,0,0,0,0,0,11,0,0,0,0,0,0,0
+0,0,-411,-317,0,0,13,0,10,0,0,-511,-317,0,0
+0,-611,0,0,-117,6,0,4,0,7,-211,0,0,-717,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH05T10</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Finish Line</string>
+		<key>Moves</key>
+		<integer>41</integer>
+		<key>ScoreSetter</key>
+		<string>EfePrat</string>
+		<key>Shots</key>
+		<integer>11</integer>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1,0,2,0,3,0,4,0,5,0,6,0,7,0,8
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>TH01T01</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>The basics</string>
+		<key>Moves</key>
+		<integer>2</integer>
+		<key>Shots</key>
+		<integer>2</integer>
+		<key>Hints</key>
+		<array>
+			<string>{240.0,208.0}|1</string>
+			<string>{240.0,208.0}|1</string>
+			<string>{240.0,240.0}|3</string>
+			<string>{240.0,80.0}|1</string>
+			<string>{240.0,240.0}|4</string>
+			<string>{240.0,240.0}|1</string>
+			<string>{240.0,240.0}|7</string>
+			<string>{240.0,240.0}|1</string>
+			<string>{240.0,208.0}|1</string>
+			<string>{240.0,208.0}|1</string>
+		</array>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH01T02</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Diagonals</string>
+		<key>Moves</key>
+		<integer>3</integer>
+		<key>Shots</key>
+		<integer>2</integer>
+		<key>Hints</key>
+		<array>
+			<string>{240.0,208.0}|1</string>
+			<string>{240.0,208.0}|1</string>
+			<string>{240.0,80.0}|8</string>
+			<string>{240.0,80.0}|1</string>
+			<string>{240.0,80.0}|1</string>
+			<string>{240.0,80.0}|1</string>
+		</array>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,2,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH01T03</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Quick-shot</string>
+		<key>Moves</key>
+		<integer>6</integer>
+		<key>Shots</key>
+		<integer>2</integer>
+		<key>Hints</key>
+		<array>
+			<string>{240.0,240.0}|3</string>
+		</array>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,5,0,0,0,0,0,0,0,0,0,0,4
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH01T04</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Aiming Assistant</string>
+		<key>Moves</key>
+		<integer>6</integer>
+		<key>Shots</key>
+		<integer>3</integer>
+		<key>Hints</key>
+		<array>
+			<string>{240.0,240.0}|3</string>
+			<string>{240.0,240.0}|6</string>
+			<string>{240.0,240.0}|1</string>
+		</array>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,3,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,7,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH01T05</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Cushions</string>
+		<key>Moves</key>
+		<integer>10</integer>
+		<key>Shots</key>
+		<integer>4</integer>
+		<key>Hints</key>
+		<array>
+			<string>{240.0,80.0}|1</string>
+			<string>{240.0,80.0}|1</string>
+		</array>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,3,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,5,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH01T06</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Multi-shot</string>
+		<key>Moves</key>
+		<integer>5</integer>
+		<key>Shots</key>
+		<integer>1</integer>
+		<key>Hints</key>
+		<array>
+			<string>{240.0,144.0}|1</string>
+		</array>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,9,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,8,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH01T07</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Pass and Shoot</string>
+		<key>Moves</key>
+		<integer>18</integer>
+		<key>Shots</key>
+		<integer>4</integer>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,7,0,0,0,0,0,0,4
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,3,0,0,0
+0,0,5,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH01T08</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Lower First</string>
+		<key>Moves</key>
+		<integer>18</integer>
+		<key>Shots</key>
+		<integer>3</integer>
+		<key>Hints</key>
+		<array>
+			<string>{240.0,240.0}|1</string>
+			<string>{240.0,240.0}|1</string>
+		</array>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,8,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,10,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH01T09</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>The Bait</string>
+		<key>Moves</key>
+		<integer>19</integer>
+		<key>Shots</key>
+		<integer>5</integer>
+		<key>Hints</key>
+		<array>
+			<string>{240.0,80.0}|1</string>
+			<string>{240.0,80.0}|1</string>
+		</array>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,3,0,0,0,0,0,0,0,5,0,4,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,7,0,0,6,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH01T10</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>The Exam</string>
+		<key>Moves</key>
+		<integer>21</integer>
+		<key>Shots</key>
+		<integer>5</integer>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4,0,0,0,0,0,0,5,0,2,0,3,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,6,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+</array>
+</plist>

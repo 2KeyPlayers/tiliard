@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>TH02T01</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Deja Vu</string>
+		<key>Moves</key>
+		<integer>4</integer>
+		<key>Shots</key>
+		<integer>2</integer>
+		<key>Hints</key>
+		<array>
+			<string>{240.0,208.0}|1</string>
+			<string>{240.0,208.0}|1</string>
+		</array>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,2,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Moves</key>
+		<integer>13</integer>
+		<key>Shots</key>
+		<integer>4</integer>
+		<key>Name</key>
+		<string>TH02T02</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Pick the Pockets</string>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,5,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,4,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,3,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH02T03</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Flashbacks</string>
+		<key>Moves</key>
+		<integer>18</integer>
+		<key>Shots</key>
+		<integer>5</integer>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,3,0,0,0,0,0,0,4,0
+0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH02T04</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Mastering the Pockets</string>
+		<key>Moves</key>
+		<integer>35</integer>
+		<key>Shots</key>
+		<integer>6</integer>
+		<key>Hints</key>
+		<array>
+			<string>{240.0,208.0}|1</string>
+		</array>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,5,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,9,0,0
+0,0,0,0,0,0,8,0,0,0,0,0,0,0,0
+-1,4,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH02T05</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Stop-shot</string>
+		<key>Moves</key>
+		<integer>21</integer>
+		<key>Shots</key>
+		<integer>3</integer>
+		<key>Hints</key>
+		<array>
+			<string>{240.0,112.0}|1</string>
+		</array>
+		<key>Layout</key>
+		<string>-1,0,0,10,0,0,0,-1,0,0,8,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,3,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH02T06</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>90-degree Rule</string>
+		<key>Moves</key>
+		<integer>21</integer>
+		<key>Shots</key>
+		<integer>5</integer>
+		<key>Hints</key>
+		<array>
+			<string>{240.0,80.0}|1</string>
+		</array>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,,0,0,0,0
+0,0,0,0,0,1,0,0,0,0,0,0,4,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH02T07</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>10 East</string>
+		<key>Moves</key>
+		<integer>31</integer>
+		<key>Shots</key>
+		<integer>4</integer>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,10,0,0,0,0,0,0
+0,0,3,0,0,0,0,0,0,0,4,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH02T08</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>In and Out</string>
+		<key>Moves</key>
+		<integer>38</integer>
+		<key>Shots</key>
+		<integer>3</integer>
+		<key>Layout</key>
+		<string>-1,0,0,0,9,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,10,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,6,0,0,0,0,0,0
+-1,0,0,0,0,0,13,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH02T09</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>Up and Round</string>
+		<key>Moves</key>
+		<integer>58</integer>
+		<key>Shots</key>
+		<integer>3</integer>
+		<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,15,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,10,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,3,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,9,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>TH02T10</string>
+		<key>Author</key>
+		<string>2KP</string>
+		<key>Description</key>
+		<string>T Like Tiliard</string>
+		<key>Moves</key>
+		<integer>91</integer>
+		<key>Shots</key>
+		<integer>6</integer>
+		<key>ScoreSetter</key>
+		<string>EfePrat</string>				<key>Layout</key>
+		<string>-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,8,2,11,0,0,0,0,0,0
+0,0,0,0,0,0,0,14,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,3,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+-1,0,0,0,0,0,0,-1,0,0,0,0,0,0,-1</string>
+	</dict>
+</array>
+</plist>
