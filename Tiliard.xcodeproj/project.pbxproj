@@ -1109,11 +1109,25 @@
 		1888A80F1421FBE400F6A4F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "2 Key Players";
 				TargetAttributes = {
 					1888A8171421FBE400F6A4F5 = {
 						DevelopmentTeam = ASQ873KZ8L;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -1373,9 +1387,10 @@
 		1888A9881421FBE600F6A4F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Marek Toth (Q26JK75SCZ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Marek Toth (Q26JK75SCZ)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Marek Toth (ASQ873KZ8L)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Marek Toth (ASQ873KZ8L)";
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1383,34 +1398,35 @@
 					"COCOS2D_DEBUG=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PROVISIONING_PROFILE = "D7415BDB-98AE-4060-830F-AAD6892265B4";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D7415BDB-98AE-4060-830F-AAD6892265B4";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "2fe7645d-e180-44bd-84bd-a34dfe0a03c0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2fe7645d-e180-44bd-84bd-a34dfe0a03c0";
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
 		1888A9891421FBE600F6A4F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Marek Toth (ASQ873KZ8L)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Marek Toth (ASQ873KZ8L)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "01E8D6CA-433E-47D8-90DD-8A6071AC53A2";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "01E8D6CA-433E-47D8-90DD-8A6071AC53A2";
+				PROVISIONING_PROFILE = "2fe7645d-e180-44bd-84bd-a34dfe0a03c0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2fe7645d-e180-44bd-84bd-a34dfe0a03c0";
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
@@ -1418,24 +1434,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_ENTITLEMENTS = Tiliard/Tiliard.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Marek Toth (Q26JK75SCZ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Marek Toth (Q26JK75SCZ)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = ASQ873KZ8L;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Tiliard/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Tiliard/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-lz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.2keyplayers.Tiliard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4CF714CB-D328-4ECB-B198-687AE3F34060";
+				PROVISIONING_PROFILE = "6cbe5c3f-9d84-4ba1-8a61-6be991214437";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4CF714CB-D328-4ECB-B198-687AE3F34060";
+				PROVISIONING_PROFILE_SPECIFIER = Tiliard;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1444,24 +1462,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_ENTITLEMENTS = Tiliard/Tiliard.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Marek Toth (ASQ873KZ8L)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Marek Toth (ASQ873KZ8L)";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = ASQ873KZ8L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Tiliard/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Tiliard/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-lz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.2keyplayers.Tiliard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "C4B8EF47-0EEF-428D-AD65-D0DE63844CAA";
+				PROVISIONING_PROFILE = "2fe7645d-e180-44bd-84bd-a34dfe0a03c0";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C4B8EF47-0EEF-428D-AD65-D0DE63844CAA";
+				PROVISIONING_PROFILE_SPECIFIER = TiliardDistribution;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1469,20 +1489,20 @@
 		189F7A7A144ADC5E0090C8FC /* Ad Hoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Marek Toth (ASQ873KZ8L)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Marek Toth (ASQ873KZ8L)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "1D9DA71D-6D8A-4887-83D4-9A7B5F71FAF3";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1D9DA71D-6D8A-4887-83D4-9A7B5F71FAF3";
+				PROVISIONING_PROFILE = "2fe7645d-e180-44bd-84bd-a34dfe0a03c0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2fe7645d-e180-44bd-84bd-a34dfe0a03c0";
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = "Ad Hoc";
 		};
@@ -1490,24 +1510,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_ENTITLEMENTS = Tiliard/Tiliard.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Marek Toth (ASQ873KZ8L)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Marek Toth (ASQ873KZ8L)";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = ASQ873KZ8L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Tiliard/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Tiliard/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-lz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.2keyplayers.Tiliard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "08CE37AB-A1B3-4196-A0EE-3ED83F1CD014";
+				PROVISIONING_PROFILE = "2fe7645d-e180-44bd-84bd-a34dfe0a03c0";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "08CE37AB-A1B3-4196-A0EE-3ED83F1CD014";
+				PROVISIONING_PROFILE_SPECIFIER = TiliardDistribution;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = "Ad Hoc";

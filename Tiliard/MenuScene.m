@@ -540,13 +540,13 @@
 	iPadOffset = ccp(offset.x - 32, offset.y);
 	iPhone5Offset = ccp(offset.x - 44, offset.y);
 	
-	MenuItemSprite *miMenuVersionLabel = [MenuItemSprite itemWithSpriteFrameName: @"mmLabelVersion.png"
+	/*MenuItemSprite *miMenuVersionLabel = [MenuItemSprite itemWithSpriteFrameName: @"mmLabelVersion.png"
 																		  target: nil
 																		selector: nil];
 	miMenuVersionLabel.position = [self convertPoint: ccp(730, 43) iPadOffset: iPadOffset iPhone5Offset: iPhone5Offset];
 	miMenuVersionLabel.anchorPoint = ccp(0.0f, 0.0f);
 	miMenuVersionLabel.tag = kMenuTilehallsLabel;
-	[miMenuVersionLabel setIsEnabled: NO];
+	[miMenuVersionLabel setIsEnabled: NO];*/
 	//miMenuVersionLabel = 255;
 	
 	if (game.iPad) {
@@ -741,7 +741,7 @@
 	[miMenuPromo setIsEnabled: NO];
 	//miMenuPromo.opacity = 255;
 	
-	MenuItemSprite *miPromoPager = [MenuItemSprite itemWithSpriteFrameName: @"mmPromoPage_0.png"
+	/*MenuItemSprite *miPromoPager = [MenuItemSprite itemWithSpriteFrameName: @"mmPromoPage_0.png"
 																	target: nil
 																  selector: nil];
 	miPromoPager.position = [self convertPoint: ccp(1920, -136) offset: offset];
@@ -796,7 +796,7 @@
 	miFacebook.position = [self convertPoint: ccp(2020, -56) offset: offset];
 	miFacebook.tag = kMenuButtonFacebook;
 	[miFacebook setSelectionColor: ccc3(61, 98, 179)];
-	miFacebook.visible = NO;
+	miFacebook.visible = NO;*/
 	
 	// add Plus
 	if (game.iPad) {
@@ -809,21 +809,21 @@
 	iPadOffset = ccp(offset.x + 32, offset.y);
 	iPhone5Offset = ccp(offset.x + 44, offset.y);
 	
-	MenuItemSprite *miMenuPlus = [MenuItemSprite itemWithSpriteFrameName: @"mmPlus.png"
+	/*MenuItemSprite *miMenuPlus = [MenuItemSprite itemWithSpriteFrameName: @"mmPlus.png"
 																  target: self
 																selector: @selector(menuPlus:)];
 	miMenuPlus.position = [self convertPoint: ccp(720, 160) iPadOffset: iPadOffset iPhone5Offset: iPhone5Offset];
 	miMenuPlus.anchorPoint = ccp(1.0f, 1.0f);
-	miMenuPlus.tag = kMenuPlus;
+	miMenuPlus.tag = kMenuPlus;*/
 	
 	_menu = [[CCMenu menuWithItems:
 			  miMenuOptionsLabel, miMenuCloudLabel, mi10, mi11, mi12, mi13, mi14, mi15, mi16, mi17, mi18, mi19,
 			  miMenuMainLabel, mi21, mi22, mi23, mi24, mi25,
-			  miMenuCreditsLabel, miMenuVersionLabel, mi31, mi32,
+			  miMenuCreditsLabel, /*miMenuVersionLabel,*/ mi31, mi32,
 			  miMenuTilehallsLabel, mi41, mi42, mi43, mi44, mi45, mi4cs, mi4b,
 			  miMenuTablesLabel, mi51, mi52, mi53, mi54, mi55, mi56, mi57, mi58, mi59, mi510,
-			  miMenuPromo, miPromoPager, miReturn, miPrevious, miNext,
-			  miAppStore, miMail, miTwitter, miFacebook, miMenuPlus,
+			  /*miMenuPromo, miPromoPager, miReturn, miPrevious, miNext,
+			  miAppStore, miMail, miTwitter, miFacebook, miMenuPlus,*/
 			  nil] retain];
 	
 	// add menu into scene

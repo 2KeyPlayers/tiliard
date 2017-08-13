@@ -100,6 +100,7 @@
 //
 // This callback only will be called when GAME_AUTOROTATION == kGameAutorotationUIViewController
 //
+/*
 #if GAME_AUTOROTATION == kGameAutorotationUIViewController
 -(void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
 {
@@ -128,7 +129,8 @@
 	glView.frame = rect;
 }
 #endif // GAME_AUTOROTATION == kGameAutorotationUIViewController
-
+*/
+ 
 - (NSUInteger)supportedInterfaceOrientations {
     return UIInterfaceOrientationMaskLandscape;
 }

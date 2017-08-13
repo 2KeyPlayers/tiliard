@@ -2089,10 +2089,12 @@
 		
 		Tile *tile = [self getTileOnPosition: positionOnTable];
 		
+		_tapPoint = location;
+
 		if (touch.tapCount == 2) {
 				
 			_doubleTap = YES;
-			_tapPoint = location;
+			//_tapPoint = location;
 			return YES;
 		}
 		
@@ -2231,6 +2233,12 @@
 
 	if ([game isInState: kGameEnded]) {
 		return; // no need to go further in code
+	}
+	
+	CGPoint diff = ccpSub(location, _tapPoint);
+	// 3D Touch fix
+	if ((diff.x == 0) && (diff.y == 0)) {
+		return;
 	}
 	
 	if (_cueTileIsSet) {
